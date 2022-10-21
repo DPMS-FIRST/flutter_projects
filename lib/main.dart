@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_application_1/LoginPage.dart';
-import 'package:flutter_application_1/login_page.dart';
+import 'package:flutter_application_1/SampleLogin.dart';
+import 'package:flutter_application_1/SampleSignUp.dart';
+import 'package:flutter_application_1/get_start.dart';
+import 'package:flutter_application_1/signup.dart';
 
 // Copyright 2018 The Flutter team. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
@@ -18,12 +21,20 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     
     return MaterialApp(
+      initialRoute: "getstart",
+      routes: {
+        "/getstart":((context) => GetStart()),
+        "/login":((context) => LoginPage1()),
+        "/signup":((context) => SignUp1()),
+      },
       debugShowCheckedModeBanner: false,
       title: 'Welcome to Flutter',
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: LoginPage1(),
+      //home: GetStart(),
+      //SignUp(),
+      //LoginPage1(),
       //TextFieldDemo(),
       /*home:  Scaffold(
         appBar: AppBar(

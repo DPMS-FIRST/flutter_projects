@@ -119,7 +119,7 @@ class _LoginPage1 extends State<LoginPage1> {
           ],
         ),
       ),
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.blue,
     );
   }
 
