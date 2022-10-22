@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_application_1/SampleSignUp.dart';
+import 'package:flutter_application_1/signup.dart';
+
 
 import 'LoginPage.dart';
-import 'SampleSignUp.dart';
+
 
 class GetStart extends StatefulWidget {
   const GetStart({super.key});
@@ -31,7 +32,7 @@ class _GetStartState extends State<GetStart> {
             TextButton(
                 onPressed: () {
                   Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => SignUp1()));
+                      MaterialPageRoute(builder: (context) => SignUp()));
                 },
                 child: Text('Sign Up'))
           ],

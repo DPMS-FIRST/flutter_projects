@@ -80,10 +80,10 @@ class _FormValidation1 extends State<FormValidation1> {
   }
 
   bool isValidEmail(String email) {
-    return RegExp("").hasMatch(email);
+    return RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$').hasMatch(email);
   }
 
   bool isValidPassword(String password) {
-    return RegExp("").hasMatch(password);
+    return RegExp(r'^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#\$&*~]).{8,}$').hasMatch(password);
   }
 }

@@ -31,6 +31,7 @@ class _LoginPage1 extends State<LoginPage1> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+
             //Icon
             Padding(
               padding: const EdgeInsets.all(20.0),
@@ -57,12 +58,10 @@ class _LoginPage1 extends State<LoginPage1> {
                       color: myFocusNode.hasFocus ? Colors.red : Colors.white),
                   labelStyle: TextStyle(
                       color: myFocusNode.hasFocus ? Colors.red : Colors.white),
-                  /* enabledBorder: OutlineInputBorder(
-                    borderSide: BorderSide(width: 3, color: Colors.red),
-                  ), */
                 ),
               ),
             ),
+            
             //password textfield
             Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 30.0),
@@ -78,9 +77,6 @@ class _LoginPage1 extends State<LoginPage1> {
                     hintStyle: TextStyle(
                         color:
                             myFocusNode.hasFocus ? Colors.red : Colors.white),
-                    /* labelStyle: TextStyle(
-                        color:
-                            myFocusNode.hasFocus ? Colors.red : Colors.white), */
                     suffix: IconButton(
                       onPressed: () {
                         setState(() {
