@@ -1,0 +1,86 @@
+{
+    "data": [
+        {
+            "category": "Fruits",
+            "productId": 1,
+            "productName": "Apple",
+            "productCost": "$10",
+            "productVarient": "Royal Gala",
+            "productImage": "assets/staticImages/apple.jpeg",
+            "productDescrition": "Sweet Apple"
+          
+        },
+        {
+            "category": "Fruits",
+            "productId": 2,
+            "productName": "Grapes",
+            "productCost": "$2",
+            "productVarient": "Wine Grape",
+            "productImage": "assets/staticImages/graps.jpeg",
+            "productDescrition": "Grapes"
+        },
+        {
+            "category": "Fruits",
+            "productId": 3,
+            "productName": "Banana",
+            "productCost": "$15",
+            "productVarient": "Gantes",
+            "productImage": "assets/staticImages/banana.jpeg",
+            "productDescrition": "Hybrid Bananas"
+        },
+        {
+            "category": "Vegetables",
+            "productId": 4,
+            "productName": "Carrot",
+            "productCost": "$10",
+            "productVarient": "Chainese",
+            "productImage": "assets/staticImages/carror.jpeg",
+            "productDescrition": "Sweet Apple"
+        },
+        {
+            "category": "Vegetables",
+            "productId": 5,
+            "productName": "Potato",
+            "productCost": "$2",
+            "productVarient": "Wine Grape",
+            "productImage": "assets/staticImages/potato.jpeg",
+            "productDescrition": "Grapes"
+        },
+        {
+            "category": "Vegetables",
+            "productId": 6,
+            "productName": "Green Chilli",
+            "productCost": "$15",
+            "productVarient": "Gantes",
+            "productImage": "assets/staticImages/greenchilly.jpeg",
+            "productDescrition": "Hybrid Bananas"
+        },
+        {
+            "category": "Beverages",
+            "productId": 7,
+            "productName": "Pokka Ice Lemon Tea Bottle 1.5L",
+            "productCost": "$10",
+            "productVarient": "Chainese",
+            "productImage": "https://image",
+            "productDescrition": "Pokka Ice"
+        },
+        {
+            "category": "Beverages",
+            "productId": 8,
+            "productName": "Pokka Ice Peach Tea 1.5L",
+            "productCost": "$2",
+            "productVarient": "Wine Grape",
+            "productImage": "",
+            "productDescrition": "Peach Tea"
+        },
+        {
+            "category": "Beverages",
+            "productId": 9,
+            "productName": "Nescafe Original 3 in 1 Instant Coffee",
+            "productCost": "$15",
+            "productVarient": "Gantes",
+            "productImage": "",
+            "productDescrition": "Nescafe Coffee"
+        }
+    ]
+}
