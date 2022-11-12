@@ -19,27 +19,27 @@ class ListDisplayScreen extends StatelessWidget {
         itemBuilder: (context, index) {
           final details = StateProvider.details[index];
           return Card(
+            shadowColor: Colors.black12,
+            elevation: 8.0,
             child: Container(
-              margin: EdgeInsets.all(8.0),
-              padding: EdgeInsets.all(8.0),
+              margin: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(8.0),
               child: Column(children: [
                 Text(
                   details.name!,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontWeight: FontWeight.bold
                   ),
                 ),
               
                 Text(details.mobileNumber!,
-                style: TextStyle(
+                style: const TextStyle(
                     fontWeight: FontWeight.bold
                   ),
                 ),
                 
               ]),
             ),
-            shadowColor: Colors.black12,
-            elevation: 8.0,
           );
         },
       ),
@@ -47,7 +47,7 @@ class ListDisplayScreen extends StatelessWidget {
         onPressed: () async {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => AddScreen()),
+            MaterialPageRoute(builder: (context) => const AddScreen()),
           );
         },
         backgroundColor: Colors.blue,
