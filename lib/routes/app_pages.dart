@@ -4,7 +4,8 @@ import 'package:first_app/UI/cricketers_data/create_cricketer.dart';
 import 'package:first_app/UI/cricketers_data/user_retrieve_component.dart';
 import 'package:first_app/UI/cricketers_data/user_role_component.dart';
 import 'package:first_app/UI/forgot_password.dart';
-import 'package:first_app/UI/providers/CounterViewPage.dart';
+import 'package:first_app/UI/providers/Display/ListDisplayScreen.dart';
+import 'package:first_app/UI/providers/counter/CounterViewPage.dart';
 import 'package:first_app/UI/village_list.dart';
 import 'package:first_app/list_view.dart';
 import 'package:first_app/products/products_list.dart';
@@ -36,6 +37,7 @@ class AppPages {
       AppRoutes.UserRoleComponent: ((context) => UserRoleComponent()),
       AppRoutes.UserRetrieveComponent:((context) => UserRetrieveComponent()),
       AppRoutes.CounterPageView:((context) => CounterPageView()),
+       AppRoutes.ListDisplayScreen:((context) => ListDisplayScreen()),
     };
   }
 }

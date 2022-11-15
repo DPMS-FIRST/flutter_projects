@@ -83,7 +83,7 @@ country varchar(255)
     return result.toList();
 }
 
-Future<int> delete(int id) async {
+Future<int> delete(String id) async {
     Database db = await instance.database;
     return await db.delete(tableName, where: '$columnId = ?', whereArgs: [id]);
   }

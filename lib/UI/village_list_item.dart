@@ -1,7 +1,5 @@
 import 'package:first_app/UI/village_detail_model.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class VillageListItem extends StatelessWidget {
   const VillageListItem({super.key, required this.details});

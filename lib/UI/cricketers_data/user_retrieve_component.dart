@@ -51,9 +51,8 @@ class _UserRetrieveComponentState extends State<UserRetrieveComponent> {
         
         itemBuilder: (context, index) {
           final CricketerData = userData[index];
-          print(userData[index].gender);
-            return CricketerListItem(details: CricketerData);
-            
+          //print(userData[index].gender);
+            return CricketerListItem(details: CricketerData);           
         },
       )),
           

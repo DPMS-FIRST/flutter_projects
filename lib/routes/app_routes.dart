@@ -1,6 +1,6 @@
 class AppRoutes {
   AppRoutes._();
-  static const initial = CounterPageView;
+  static const initial = cricketers;
   static const String getstart = "/getstart";
   static const String login = "/login";
   static const String signup = "/signup";
@@ -17,6 +17,7 @@ class AppRoutes {
   static const String UserRoleComponent = "/UserRoleComponent";
   static const String UserRetrieveComponent = "/UserRetrieveComponent";
   static const String CounterPageView = "/CounterPageView";
+    static const String ListDisplayScreen = "/ListDisplayScreen";
 }
 /*
 

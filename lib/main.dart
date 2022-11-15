@@ -1,4 +1,5 @@
-import 'package:first_app/UI/providers/CounterLogicPage.dart';
+import 'package:first_app/UI/providers/Display/provider.dart';
+import 'package:first_app/UI/providers/counter/CounterLogicPage.dart';
 import 'package:first_app/routes/app_pages.dart';
 import 'package:first_app/routes/app_routes.dart';
 import 'package:flutter/material.dart';
@@ -21,13 +22,14 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => CounterLogicPage()),
+        ChangeNotifierProvider(create: (_) => ProviderNotifier()),
       ],
       child: MaterialApp(
         title: 'Flutter Demo',
         initialRoute: AppRoutes.initial,
         routes: AppPages.routes,
         theme: ThemeData(
-          primarySwatch: Colors.deepPurple,
+          primarySwatch: Colors.blue,
         ),
         //  home: GetStart(),
       ),

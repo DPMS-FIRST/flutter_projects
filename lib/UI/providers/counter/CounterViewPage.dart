@@ -1,4 +1,4 @@
-import 'package:first_app/UI/providers/CounterLogicPage.dart';
+import 'package:first_app/UI/providers/counter/CounterLogicPage.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

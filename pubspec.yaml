@@ -48,6 +48,7 @@ dependencies:
   uuid: ^3.0.6
   checkbox_grouped: ^1.8.1
   provider: ^6.0.4
+  path: ^1.8.2
 
 dev_dependencies:
   flutter_test:
